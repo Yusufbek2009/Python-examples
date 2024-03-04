@@ -3,9 +3,9 @@ print("Correct : Apple Juice | Not correct : apple juice")
 print("To exit give furnace void")
 while True:
     a = str(input("Insert item to smelt : "))
-    if a == "Wood": 
-        time.sleep(5)
-        print("Result : Charcoal")
+    if a == "Wood":                            #
+        time.sleep(5)                          #  Recipe
+        print("Result : Charcoal")             #
         print()
         print()
         
