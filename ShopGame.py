@@ -16,6 +16,9 @@ money = 5000
 
 box = []
 
+print("Welcome to our shop!")
+print("See the list before starting!", shop)
+
 while True:
     
     a = str(input("Choose item to buy : "))
@@ -30,6 +33,11 @@ while True:
         print()
         t.sleep(3)
         continue
+
+    elif len(box) >= 15:
+        print("You have full box, See you later! ;)")
+        t.sleep(5)
+        break
     
     else:
         print("You havent enough money (((")
