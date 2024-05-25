@@ -1,5 +1,5 @@
 p = 0
-print("Type like this with no problems")
+print("Type with uppercase")
 print("apple |X|", "Apple |V|")
 
 while True:
